@@ -169,7 +169,15 @@
         /* Safari 3-8 */
         transform: scale(1.1);
     }
-    
+    footer #luv{
+        position: absolute;
+    }
+
+    footer{
+        bottom: 0;
+        z-index: 10;
+    }
+
     #footer {
         text-align: center;
         color: white;
@@ -177,4 +185,17 @@
     
     #p {
         color: white;
+    }
+
+    #title {
+        padding-top: 10%;
+    }
+
+    #me{
+        padding-bottom: 10%;
+    }
+
+    #cims{
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
